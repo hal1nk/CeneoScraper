@@ -4,6 +4,7 @@
 - pobranie kodu pojedynczej strony z opiniami o produkcie
 - wydobycie z kodu strony fragmentu odpowiadającego pojedynczej opinii
 -zapisanie do pojedynczych zmiennych wartości składowych opinii
+
 |Składowa|Selektor CSS|Nazwa zmiennej|Typ danych|
 |---------------|------------|--------------|----------|
 |Opinia|div.js_product-review|opinion||
