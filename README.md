@@ -3,7 +3,9 @@
 ### Etap 1.1 - pobranie składowych pojedynczej opinii
 - pobranie kodu pojedynczej strony z opiniami o produkcie
 - wydobycie z kodu strony fragmentu odpowiadającego pojedynczej opinii
--zapisanie do pojedynczych zmiennych wartości składowych opinii
+- zapisanie do pojedynczych zmiennych wartości składowych opinii
+- obsługa błędów
+- transformacja danych do docelowych typów
 
 |Składowa|Selektor CSS|Nazwa zmiennej|Typ danych|
 |---------------|------------|--------------|----------|
@@ -20,3 +22,6 @@
 |Data zakupu|span.user-post__published > time:nth-child(2)["datatime"]|purchaseDate|str|
 |Dla ilu osób przydanta|span[id^="votes-yes"]|useful|int|
 |Dla ilu osób nie przydanta|span[id^="votes-no"]|useless|int|
+
+## Etap 2 - Ekstrakcja wszystkich opinii o produkcie z pojedynczej strony.
+
