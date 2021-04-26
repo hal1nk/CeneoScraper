@@ -227,7 +227,7 @@
     {
         "opinionId": "10589248",
         "author": "ella",
-        "rcmd": null,
+        "rcmd": false,
         "stars": 3.5,
         "content": "bateria zmniejszyła moc na 50% po 8 godzinach, wolny system, aktualizacja ściągała się około 10 minut, wolna reakcja na dotyk, czasami reakcja odwrotna od oczekiwań. Reszta w porzadku",
         "pros": [
@@ -378,7 +378,7 @@
     {
         "opinionId": "7983029",
         "author": "Jarek",
-        "rcmd": null,
+        "rcmd": false,
         "stars": 3.5,
         "content": "Piękna widoczność na ekranie i bardzo lekki i elegancki. Niestety skomplikowany sposób wgrywania plików (m.in. poprzez maila). Bezpośrednio kablem z komputera coś nie wchodzi.",
         "pros": [],
