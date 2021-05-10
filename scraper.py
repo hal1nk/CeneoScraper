@@ -40,15 +40,6 @@ while respons:
     for opinion in opinions:
         opinionDict = {key:extractComponent(opinion, *value)
                        for key, value in components.items()}
-        opinionDict["opinionId"] = opinion["data-entry-id"]
-
-        # rcmd = True if rcmd == "Polecam" else False
-        # stars = float(stars.split("/")[0].replace(",", "."))
-        # content = content.replace("\n", " ").replace("\r", " ")
-        # purchased = bool(purchased)
-        # useful = int(useful)
-        # useless = int(useless)      
-
         opinionsList.append(opinionDict)
 
     respons = requests.get(
