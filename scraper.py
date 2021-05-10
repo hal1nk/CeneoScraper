@@ -36,10 +36,10 @@ while respons:
 
     pageDOM = BeautifulSoup(respons.text, 'html.parser')
     opinions = pageDOM.select("div.js_product-review")
-
     for opinion in opinions:
         opinionDict = {key:extractComponent(opinion, *value)
                        for key, value in components.items()}
+        opinionDict["opinionId"] = opinion["data-entry-id"]    
         opinionsList.append(opinionDict)
 
     respons = requests.get(
